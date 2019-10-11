@@ -15,7 +15,7 @@ function Result(){
    .replace(/OEÛ«±/g,"ৰ্পৌ").replace(/OEÙ«±/g,"ৰ্ফৌ").replace(/OEı«±/g,"ৰ্বৌ").replace(/OEˆ«±/g,"ৰ্ভৌ").replace(/OE˜«±/g,"ৰ্মৌ")
    .replace(/OE˚˛«±/g,"ৰ্য়ৌ").replace(/OE˚«±/g,"ৰ্যৌ").replace(/OE1«±/g,"ৰ্ৰৌ").replace(/OE˘«±/g,"ৰ্লৌ").replace(/OEª«±/g,"ৰ্ৱৌ")
    .replace(/OE˙«±/g,"ৰ্শৌ").replace(/OE¯«±/g,"ৰ্ষৌ").replace(/OE¸«±/g,"ৰ্সৌ").replace(/OE˝«±/g,"ৰ্হৌ")
-   .replace(/OEé«±/g,"ৰ্ক্ষৌ")
+   .replace(/OEé«±/g,"ৰ্ক্ষৌ").replace(/mmmmmmmmmm/g,"কৌ")
    //ঔ-কাৰ-১//ক-ক্ষ
    .replace(/OEflÃ/g,"কৌ").replace(/OE‡Ã/g,"খৌ").replace(/OE·Ã/g,"গৌ").replace(/OE‚Ã/g,"ঘৌ").replace(/OE„Ã/g,"ঙৌ")
    .replace(/OE2Ã|OE‰Ã/g,"চৌ").replace(/OEÂÃ/g,"ছৌ").replace(/OEÊÃ/g,"জৌ").replace(/OEÁÃ/g,"ঝৌ").replace(/OE¤ûÃ/g,"ঞৌ")
