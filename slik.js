@@ -1,3 +1,4 @@
+<script>
 (function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -2633,3 +2634,4 @@ $(document).ready(function() {
 		//autoplaySpeed : 2000,
 	});
 });
+</script>
