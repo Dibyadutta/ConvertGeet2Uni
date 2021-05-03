@@ -1,4 +1,3 @@
-
 function Copy(){
    copyText = document.getElementById("result");
    copyText.select();
