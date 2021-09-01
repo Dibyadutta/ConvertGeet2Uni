@@ -5,6 +5,6 @@ function Copy(){
    alert(copyText,value + "প্ৰতিলিপি কৰা হ'ল।")}
 function Result(){
    var str = document.getElementById("myform").elements.item(0).value;
-   var result = str.replace(/\|/g,"।");
+   var result = str.replace(/্য়/g,"্য");
 document.getElementById("result").innerHTML = result;
 }
