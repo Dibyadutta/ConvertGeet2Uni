@@ -1,3 +1,4 @@
+<script>
 function Copy(){
    copyText = document.getElementById("result");
    copyText.select();
@@ -622,3 +623,4 @@ function Result(){
    .replace(/১জ্ব/g,"১৮").replace(/২ঙ্ম/g,"২০").replace(/২০১জ্জ/g,"২০১৭");
 document.getElementById("result").innerHTML = result;
 }
+</script>
