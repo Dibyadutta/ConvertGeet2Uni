@@ -41,8 +41,8 @@ function Copy(){
    document.execCommand("copy");
    alert(copyText,value + "প্ৰতিলিপি কৰা হ'ল।")}
 function Result(){
-   var str = document.getElementById("myform").elements.item(0).value;
-   var result = str.replace(/”|\+/g,"ূ").replace(/Ÿ¬/g,"+").replace(/√|¬|Π|amp;|¡/g,"").replace(/°/g,"/").replace(/Î0/g,"ড°")
+   var text = document.getElementById("myform").elements.item(0).value;
+   var esult = text.replace(/”|\+/g,"ূ").replace(/Ÿ¬/g,"+").replace(/√|¬|Π|amp;|¡/g,"").replace(/°/g,"/").replace(/Î0/g,"ড°")
    //ৰেফ ঔ-কাৰ-১//ক-ক্ষ
    .replace(/OEfl«±/g,"ৰ্কৌ").replace(/OE‡«±/g,"ৰ্খৌ").replace(/OE·«±/g,"ৰ্গৌ").replace(/OE‚«±/g,"ৰ্ঘৌ").replace(/OE„«±/g,"ৰ্ঙৌ")
    .replace(/OE2«±|OE‰«±/g,"ৰ্চৌ").replace(/OEÂ«±/g,"ৰ্ছৌ").replace(/OEÊ«±/g,"ৰ্জৌ").replace(/OEÁ«±/g,"ৰ্ঝৌ").replace(/OE¤û«±/g,"ৰ্ঞৌ")
@@ -657,7 +657,7 @@ function Result(){
    .replace(/হ্মaব্জব্ধnঙ্গব্জ/g,"partner").replace(/ন্ধপ্সv/g,"gov").replace(/niন্দ্ৰব্ধ/g,"nift").replace(/ভ্ৰভ্ৰভ্ৰ/g,"www")
    .replace(/১ঙ্ম/g,"১০").replace(/ঙ্মঙ্মঙ্ম/g,"০০০").replace(/ঙ্মঙ্ম/g,"০০").replace(/১০ঙ্ম/g,"১০০")
    .replace(/১জ্ব/g,"১৮").replace(/২ঙ্ম/g,"২০").replace(/২০১জ্জ/g,"২০১৭");
-document.getElementById("result").innerHTML = result;
+document.getElementById("result").innerHTML = esult;
 }
 </script>
 
