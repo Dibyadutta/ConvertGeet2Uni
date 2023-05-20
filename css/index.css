@@ -1,0 +1,5 @@
+/* #text_unicode {} */
+@font-face { font-family: ABTT Geetanjali; src: url('/fonts/ABTT-Geetanjali.ttf'); } 
+@font-face { font-family: ABTT Geetanjali; font-weight: bold; src: url('/fonts/ABTT-Geetanjali-Bold.ttf');}
+#text_geetanjali { font-family:"ABTT Geetanjali"; font-size: 30px; }
+#text_unicode { font-size: 30px; }
