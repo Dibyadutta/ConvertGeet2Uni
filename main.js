@@ -2,7 +2,7 @@ function Copy(){
    copyText = document.getElementById("result");
    copyText.select();
    document.execCommand("copy");
-   alert(copyText,value + "প্ৰতিলিপি কৰা হ'ল।")};
+   alert(copyText,value + "প্ৰতিলিপি কৰা হ'ল।")}
 function Result(){
    var str = document.getElementById("myform").elements.item(0).value;
    var result = str.replace(/”|\+/g,"ূ").replace(/Ÿ¬/g,"+").replace(/√|¬|Π|amp;|¡/g,"").replace(/°/g,"/").replace(/Î0/g,"ড°")
@@ -648,4 +648,4 @@ function Result(){
    .replace(/গঁাৱ/g,"গাঁও").replace(/তৰািi§ত/g,"তৰান্বিত").replace(/∆হ/g,"হৈ").replace(/বিশ্ববËহ্মাণ্ডেৰ/g,"বিশ্বব্ৰহ্মাণ্ডেৰে").replace(/∆জ/g,"জৈ").replace(/∆ল/g,"লৈ")
    .replace(/Œশ্ৰ/g,"শ্ৰে").replace(/মৃতু্য/g,"মৃত্যু").replace(/Œস্প/g,"স্পে").replace(/∆গ/g,"গৈ").replace(/∆ব/g,"বৈ").replace(/হঁা/g,"হাঁ").replace(/ষû/g,"ষ্ণ").replace(/∆ক/g,"কৈ").replace(/যLa/g,"যন্ত্ৰ").replace(/øপ্ৰ/g,"প্ৰি");
 document.getElementById("result").innerHTML = result;
-};
+}
