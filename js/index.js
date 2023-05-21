@@ -1,5 +1,5 @@
 function Copy() {
-	copyText = document.getElementById("result");
+	copyText = document.getElementById("text_unicode");
 	copyText.select();
 	document.execCommand("copy");
 	alert(copyText,value + "Copied")
