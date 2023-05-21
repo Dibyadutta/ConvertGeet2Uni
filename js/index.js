@@ -9,10 +9,9 @@ function Result() {
 	var str = document.getElementById("text_geetanjali").value;
 	var ascii = (str.charCodeAt(1))
 	var unicode = String.fromCharCode(ascii);
-	alert(ascii + " | " + unicode);
 
 	if (str == "") {
-		alert('Please enter the text which is to be converted');
+		alert('অনুগ্ৰহ কৰি ৰূপান্তৰ কৰিবলৈ লেখা দিয়ক');
 		return;
 	}
 
