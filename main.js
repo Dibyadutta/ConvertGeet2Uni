@@ -620,7 +620,7 @@ function Result(){
    .replace(/inন্ধ/g,"ing").replace(/ব্জঙ্গaস্তু/g,"read").replace(/ন্দ্ৰপ্সব্জ/g,"for").replace(/ব্দন্ধ্ৰiহ্ম/g,"ship")
    .replace(/হ্মaব্জব্ধnঙ্গব্জ/g,"partner").replace(/ন্ধপ্সv/g,"gov").replace(/niন্দ্ৰব্ধ/g,"nift").replace(/ভ্ৰভ্ৰভ্ৰ/g,"www")
    .replace(/১ঙ্ম/g,"১০").replace(/ঙ্মঙ্মঙ্ম/g,"০০০").replace(/ঙ্মঙ্ম/g,"০০").replace(/১০ঙ্ম/g,"১০০")
-   .replace(/১জ্ব/g,"১৮").replace(/২ঙ্ম/g,"২০").replace(/২০১জ্জ/g,"২০১৭");
+   .replace(/১জ্ব/g,"১৮").replace(/২ঙ্ম/g,"২০").replace(/২০১জ্জ/g,"২০১৭").replace(/সাৰ্বভেÃম/g,"সাৰ্বভৌম").replace(/øLa/g,"ন্ত্ৰি");
 document.getElementById("result").innerHTML = result;
 }
 </script>
