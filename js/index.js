@@ -701,7 +701,7 @@ function Result() {
 		.replace(/চ্ছচ্ছ/g,"২৬২৬").replace(/‰/g,"চ").replace(/গ্ধগ্ধগ্ধ/g,"***").replace(/œ/g,"ী").replace(/গ্ধগ্ধ/g,"**").replace(/\*গ্ধ/g,"**")
 		.replace(/২্ছ্১|২্ছ্ৰ|২৬্১/g,"৪").replace(/২্ছ্ৰচ/g,"৪২").replace(/∏/g,"").replace(/¶≥®/g,"স্কু").replace(/•ß/g,"জ").replace(/¶ß/g,"স্ন").replace(/Ω/g,"দ্ম").replace(/¬ıË/g,"ব্ৰ").replace(/•/g,"ম্").replace(/ù¨/g,"শ্মি")
 		.replace(/গঁাৱ/g,"গাঁও").replace(/তৰািi§ত/g,"তৰান্বিত").replace(/∆হ/g,"হৈ").replace(/বিশ্ববËহ্মাণ্ডেৰ/g,"বিশ্বব্ৰহ্মাণ্ডেৰে").replace(/∆জ/g,"জৈ").replace(/∆ল/g,"লৈ")
-		.replace(/Œশ্ৰ/g,"শ্ৰে").replace(/মৃতু্য/g,"মৃত্যু").replace(/Œস্প/g,"স্পে").replace(/∆গ/g,"গৈ").replace(/∆ব/g,"বৈ").replace(/হঁা/g,"হাঁ").replace(/ষû/g,"ষ্ণ").replace(/∆ক/g,"কৈ").replace(/যLa/g,"যন্ত্ৰ").replace(/øপ্ৰ/g,"প্ৰি").replace(/সাৰ্বভেÃম/g,"সাৰ্বভৌম").replace(/øLa/g,"ন্ত্ৰি");
+		.replace(/Œশ্ৰ/g,"শ্ৰে").replace(/মৃতু্য/g,"মৃত্যু").replace(/Œস্প/g,"স্পে").replace(/∆গ/g,"গৈ").replace(/∆ব/g,"বৈ").replace(/হঁা/g,"হাঁ").replace(/ষû/g,"ষ্ণ").replace(/∆ক/g,"কৈ").replace(/যLa/g,"যন্ত্ৰ").replace(/øপ্ৰ/g,"প্ৰি").replace(/সাৰ্বভেÃম/g,"সাৰ্বভৌম").replace(/øLa/g,"ন্ত্ৰি").replace(/\)/g,"ৰ");
 
 	document.getElementById("text_unicode").innerHTML = result;
 }
