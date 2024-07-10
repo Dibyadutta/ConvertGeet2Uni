@@ -368,7 +368,7 @@ function Result() {
 		.replace(/È/g,"ট").replace(/Í/g,"ঠ").replace(/Îˇ/g,"ড়").replace(/Î/g,"ড").replace(/Ïˇ/g,"ঢ়").replace(/Ï|I/g,"ঢ").replace(/Ì/g,"ণ")
 		.replace(/Ó/g,"ত").replace(/Ô/g,"থ").replace(/|√/g,"দ").replace(/Ò/g,"ধ").replace(/Ú/g,"ন")
 		.replace(/Û/g,"প").replace(/Ù/g,"ফ").replace(/ı/g,"ব").replace(/ˆ/g,"ভ").replace(/˜/g,"ম")
-		.replace(/˚˛/g,"য়").replace(/˚/g,"য").replace(/1/g,"ৰ").replace(/˘/g,"ল").replace(/ª/g,"ৱ")
+		.replace(/˚˛/g,"য়").replace(/˚/g,"য").replace(/1/g,"ৰ").replace(/)/g,"ৰ").replace(/˘/g,"ল").replace(/ª/g,"ৱ")
 		.replace(/˙/g,"শ").replace(/¯/g,"ষ").replace(/¸/g,"স").replace(/˝/g,"হ")
 		.replace(/é\$|é/g,"ক্ষ");
 
