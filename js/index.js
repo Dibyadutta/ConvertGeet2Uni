@@ -663,7 +663,7 @@ function Result() {
 
 	//চিহ্ন//
 	result = result.replace(/º/gi,"।").replace(/‘/g,"=").replace(/ð/g,"→").replace(/Σ/g,"?").replace(/,/g,";")
-		.replace(/í/g,"’").replace(/ë/g,"‘").replace(/\[/g,"ৰ").replace(/\]/g,")").replace(/ñ/g,"—").replace(/±/gi,"া")
+		.replace(/í/g,"’").replace(/ë/g,"‘").replace(/\[/g,"(").replace(/\]/g,"ৰ").replace(/ñ/g,"—").replace(/±/gi,"া")
 		.replace(/oe/g,"ী").replace(/≈/gi,"ু").replace(/…/g,"্য").replace(/ƒ/g,"্").replace(/«/g,"ৰ্").replace(/∂/g,"ৰ-কাৰ")
 
 	//last//
