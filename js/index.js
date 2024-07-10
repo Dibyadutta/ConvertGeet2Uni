@@ -368,7 +368,7 @@ function Result() {
 		.replace(/È/g,"ট").replace(/Í/g,"ঠ").replace(/Îˇ/g,"ড়").replace(/Î/g,"ড").replace(/Ïˇ/g,"ঢ়").replace(/Ï|I/g,"ঢ").replace(/Ì/g,"ণ")
 		.replace(/Ó/g,"ত").replace(/Ô/g,"থ").replace(/|√/g,"দ").replace(/Ò/g,"ধ").replace(/Ú/g,"ন")
 		.replace(/Û/g,"প").replace(/Ù/g,"ফ").replace(/ı/g,"ব").replace(/ˆ/g,"ভ").replace(/˜/g,"ম")
-		.replace(/˚˛/g,"য়").replace(/˚/g,"য").replace(/1/g,"ৰ").replace(/)/g,"ৰ").replace(/˘/g,"ল").replace(/ª/g,"ৱ")
+		.replace(/˚˛/g,"য়").replace(/˚/g,"য").replace(/1/g,"ৰ").replace(/˘/g,"ল").replace(/ª/g,"ৱ")
 		.replace(/˙/g,"শ").replace(/¯/g,"ষ").replace(/¸/g,"স").replace(/˝/g,"হ")
 		.replace(/é\$|é/g,"ক্ষ");
 
@@ -663,7 +663,7 @@ function Result() {
 
 	//চিহ্ন//
 	result = result.replace(/º/gi,"।").replace(/‘/g,"=").replace(/ð/g,"→").replace(/Σ/g,"?").replace(/,/g,";")
-		.replace(/í/g,"’").replace(/ë/g,"‘").replace(/\[/g,"(").replace(/\]/g,")").replace(/ñ/g,"—").replace(/±/gi,"া")
+		.replace(/í/g,"’").replace(/ë/g,"‘").replace(/\[/g,"ৰ").replace(/\]/g,")").replace(/ñ/g,"—").replace(/±/gi,"া")
 		.replace(/oe/g,"ী").replace(/≈/gi,"ু").replace(/…/g,"্য").replace(/ƒ/g,"্").replace(/«/g,"ৰ্").replace(/∂/g,"ৰ-কাৰ")
 
 	//last//
@@ -701,7 +701,7 @@ function Result() {
 		.replace(/চ্ছচ্ছ/g,"২৬২৬").replace(/‰/g,"চ").replace(/গ্ধগ্ধগ্ধ/g,"***").replace(/œ/g,"ী").replace(/গ্ধগ্ধ/g,"**").replace(/\*গ্ধ/g,"**")
 		.replace(/২্ছ্১|২্ছ্ৰ|২৬্১/g,"৪").replace(/২্ছ্ৰচ/g,"৪২").replace(/∏/g,"").replace(/¶≥®/g,"স্কু").replace(/•ß/g,"জ").replace(/¶ß/g,"স্ন").replace(/Ω/g,"দ্ম").replace(/¬ıË/g,"ব্ৰ").replace(/•/g,"ম্").replace(/ù¨/g,"শ্মি")
 		.replace(/গঁাৱ/g,"গাঁও").replace(/তৰািi§ত/g,"তৰান্বিত").replace(/∆হ/g,"হৈ").replace(/বিশ্ববËহ্মাণ্ডেৰ/g,"বিশ্বব্ৰহ্মাণ্ডেৰে").replace(/∆জ/g,"জৈ").replace(/∆ল/g,"লৈ")
-		.replace(/Œশ্ৰ/g,"শ্ৰে").replace(/মৃতু্য/g,"মৃত্যু").replace(/Œস্প/g,"স্পে").replace(/∆গ/g,"গৈ").replace(/∆ব/g,"বৈ").replace(/হঁা/g,"হাঁ").replace(/ষû/g,"ষ্ণ").replace(/∆ক/g,"কৈ").replace(/যLa/g,"যন্ত্ৰ").replace(/øপ্ৰ/g,"প্ৰি").replace(/সাৰ্বভেÃম/g,"সাৰ্বভৌম").replace(/øLa/g,"ন্ত্ৰি").replace(/\)/g,"ৰ");
+		.replace(/Œশ্ৰ/g,"শ্ৰে").replace(/মৃতু্য/g,"মৃত্যু").replace(/Œস্প/g,"স্পে").replace(/∆গ/g,"গৈ").replace(/∆ব/g,"বৈ").replace(/হঁা/g,"হাঁ").replace(/ষû/g,"ষ্ণ").replace(/∆ক/g,"কৈ").replace(/যLa/g,"যন্ত্ৰ").replace(/øপ্ৰ/g,"প্ৰি").replace(/সাৰ্বভেÃম/g,"সাৰ্বভৌম").replace(/øLa/g,"ন্ত্ৰি");
 
 	document.getElementById("text_unicode").innerHTML = result;
 }
